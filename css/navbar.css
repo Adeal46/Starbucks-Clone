@@ -31,12 +31,17 @@
   
   
   
-  .nav2 {
+  .left-nav-section {
     display: flex;
     align-items: center;
   }
+  @media screen and (max-width: 800px;) {
+    .left-nav-section {
+      background-color: aqua; 
+    }
+  }
   
-  .nav2 h2 {
+  .left-nav-section h2 {
     font-size: 14px;
     font-weight: 400;
     color: #000;

@@ -6,6 +6,7 @@ body {
   line-height: 1.5;
   font-family: "Noto Sans Vai", sans-serif;
   width: 100%;
+  height: 100%;
 }
 
 
@@ -14,9 +15,7 @@ body {
   margin: 32px 0;
   display: flex;
   justify-content: center;
-  /* width: 100%; */
   box-sizing: inherit;
-  /* width: 100%; */
   font-family: "Noto Sans Vai", sans-serif;
   font-size: 1.4rem;
 }
@@ -135,13 +134,6 @@ body {
   background-color: #d4e9e2;
 }
 
-@media screen and (max-width: 768px){
-  .rewardsContainer {
-    display: flex;
-    flex-direction: row;
-    background-color: lightcoral
-  }
-}
 
 
 .rewardsDesc {
@@ -556,16 +548,99 @@ body {
   opacity: 0.5;
 }
 
+@media screen and (max-width: 778px){
+  
+  .rewards {
+    margin: 32px 0;
+    justify-content: center;
+    box-sizing: inherit;
+  }
+ 
+  .rewardsContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+  }
+  
+  .rewardsDesc {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .descContainer {
+    padding: 32px 48px;
+  }
+  
+  .rewardsBtn {
+    -webkit-border-radius: 40;
+    -moz-border-radius: 40;
+    border-radius: 40px;
+    font-family: Arial;
+    color: #0f0d0f;
+    font-size: 15px;
+    background: #d4e9e2;
+    padding: 10px 21px 10px 20px;
+    border: solid #05131c 2px;
+    text-decoration: none;
+  }
+  
+  .rewardsImgsec {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .rewardsDesc h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+  }
+  
+  .rewardsDesc p {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 1.6rem;
+  }
+  
+  .rewardsDesc ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 28.5px;
+    margin-left: 8px;
+    padding-left: 24px;
+  }
+  
+  .rewardsDesc li {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 8px;
+  }
+  
+  
+  .rewardsImg {
+    width: 100%;
+    height: 97%;
+    justify-content: center;
+  }
 
+  .nav2 {
+    background-color: aqua;
+    display: none;
+  }
+  .descContainer h2 {
+    font-size: 7px;
+  }
+}
 
 $desktop: 1200px;
 $laptop: 1024;
 $tablet: 768px;
 $phone: 480px:
 
-
-@media screen and (max-width: 1440px) {
-  .navbar {
-    ba 
-  }
-}
