@@ -35,11 +35,7 @@
     display: flex;
     align-items: center;
   }
-  @media screen and (max-width: 800px;) {
-    .left-nav-section {
-      background-color: aqua; 
-    }
-  }
+ 
   
   .left-nav-section h2 {
     font-size: 14px;
@@ -52,6 +48,7 @@
   .navLogo {
     width: 50px;
     padding-right: 30px;
+    cursor: pointer;
   }
   
   .location {
@@ -61,6 +58,7 @@
   
   .storelocation {
     font-size: medium;
+    cursor: pointer;
   }
   
   .navLinks {
@@ -101,6 +99,7 @@
     text-decoration: none;
     transition: all 0.2s ease;
     margin-right: 16px;
+    cursor: pointer;
   }
   
   
@@ -122,4 +121,5 @@
     line-height: 1.2;
     text-align: center;
     transition: all 0.2s ease;
+    cursor: pointer;
   }
